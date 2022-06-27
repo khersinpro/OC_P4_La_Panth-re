@@ -818,11 +818,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthereWEBP.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentationWEBP.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1025,6 +1025,13 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .bg-banniere {
+        background-image: url("img/mobile-img/agence-la-panthereWEBP\ _mobile.webp") center/cover;
+    }
+    
+    .bg-presentation {
+        background-image: url("img/mobile-img/image-de-presentationWEBP_mobile.webp");
     }
 }
 
