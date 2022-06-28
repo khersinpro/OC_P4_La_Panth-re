@@ -825,6 +825,25 @@ h4 {
     background-image: url("img/image-de-presentationWEBP.webp");
 }
 
+/*** CSS OPC MODIFY ***/
+
+.title-modify{
+    width:610px; 
+    margin: 0 auto;
+    font-weight:500;
+}
+.title-style{
+    font-style: italic;
+}
+.text-modify{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#last-title{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1032,6 +1051,10 @@ h4 {
     
     .bg-presentation {
         background-image: url("img/mobile-img/image-de-presentationWEBP_mobile.webp");
+    }
+    /*** Reponsive title modify ***/
+    .title-modify{
+        width: 90%;
     }
 }
 
